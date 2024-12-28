@@ -6,7 +6,7 @@
 #include <ctime>
 #include <cstdlib>
 
-//poop poop poop
+
 int main(){
    
       srand(time(0));
