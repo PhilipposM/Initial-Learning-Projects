@@ -61,7 +61,7 @@ static String[] namePool = {
           "Bryllar the Boundless", "Craygar the Cold", "Drennar the Daring", "Elkar the Ender",
           "Freyn the Flame", "Grathar the Giant", "Haelvik the Harbinger", "Ingror the Invader",
           "Jyrrek the Joyless", "Karnak the Kind", "Leroth the Lethal", "Morvak the Magnificent",
-          "Nyrgor the Nightstalker", "Orrag the Obliterator", "Pyrrel the Phantom", "Quenrik the Quester",
+          "Nyrgor the Nightstalker", "Orrag the Obliterator", "Pyrrel the Phantom", "Quenrik the Quester", 
           "Rynar the Reckless", "Storrik the Stalwart", "Tarnak the Tamer", "Urlar the Undaunted",
           "Vornak the Victor", "Wyrnth the Wrathful", "Xalrik the Xenophobe", "Yalgar the Yearning",
           "Zarvik the Zenithal", "Arazor the Ardent", "Bragnar the Burly", "Clorvik the Crimson",
