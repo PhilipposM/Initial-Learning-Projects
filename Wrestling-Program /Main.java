@@ -5,8 +5,12 @@ public class Main{
      public static void main(String[] args) {
           Teams.initializeTeams();
           Tournament.displayTeamsAndAttributes();
-          //Tournament.startTournament();
+          Tournament.startTournament();
           WeightClasses.seperateIntoWeightClasses();
+          Tournament.displayWeightClassInformation();
+          Match.startMatches();
+          Tournament.displayTeamPointsAndWinner();
+          
 
           
 

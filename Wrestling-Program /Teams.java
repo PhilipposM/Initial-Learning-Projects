@@ -1,7 +1,7 @@
 import java.util.Random;
 
 @SuppressWarnings("unused")
-public class Teams {
+public class Teams extends Tournament {
 
      
      

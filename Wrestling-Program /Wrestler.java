@@ -1,7 +1,7 @@
 import java.util.*;
 
 @SuppressWarnings("unused")
-public class Wrestler {
+public class Wrestler extends Teams {
 
      //Atributes of each Wrestler:
      double strength;
