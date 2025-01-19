@@ -1,4 +1,5 @@
 {
-     "editor.tabSize": 5,
-     "workbench.iconTheme": "material-icon-theme"
+     "editor.tabSize": 10,
+     "workbench.iconTheme": "material-icon-theme",
+     "editor.stickyTabStops": true
 }

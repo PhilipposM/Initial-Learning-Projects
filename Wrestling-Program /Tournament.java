@@ -1,8 +1,8 @@
 @SuppressWarnings("unused")
 public class Tournament {
     
-     static final int NUMBER_OF_TEAMS = 4;
-     static final int NUMBER_OF_WRESTLERS_PER_TEAM = 6;
+     static final int NUMBER_OF_TEAMS = 12;
+     static final int NUMBER_OF_WRESTLERS_PER_TEAM = 12;
      static  int[] totalTeamWins = new int[NUMBER_OF_TEAMS];
    
 
@@ -32,7 +32,7 @@ public class Tournament {
           System.out.println("The tournament is starting in: ");
           for(int i = 0; i < 3; i++){
                try{
-               Thread.sleep(1000);
+               Thread.sleep(1500);
                }catch(InterruptedException e){
                     e.printStackTrace();
                }
@@ -110,8 +110,10 @@ static void displayTeamPointsAndWinner(){
 
           }
 
-     System.out.println("The final winner is Team " + (pos + 1) + " with " + totalTeamWins[pos] + " points." );
+     
      }
+
+     System.out.println("The final winner is Team " + (pos + 1) + " with " + totalTeamWins[pos] + " points." );
 }
 
 
