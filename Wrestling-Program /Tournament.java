@@ -1,8 +1,8 @@
 @SuppressWarnings("unused")
 public class Tournament {
     
-     static final int NUMBER_OF_TEAMS = 12;
-     static final int NUMBER_OF_WRESTLERS_PER_TEAM = 12;
+     static final int NUMBER_OF_TEAMS = 2;
+     static final int NUMBER_OF_WRESTLERS_PER_TEAM = 3;
      static  int[] totalTeamWins = new int[NUMBER_OF_TEAMS];
    
 
