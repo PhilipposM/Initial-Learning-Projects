@@ -1,0 +1,42 @@
+name: practice_app_one
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/vectors/notification_icon.svg
+
+  fonts:
+    - family: Bodoni
+      fonts:
+        - asset: assets/fonts/BodoniBold.ttf
+          weight: 300
+        - asset: assets/fonts/BodoniBolditalic.ttf
+          weight: 100
+        - asset:  assets/fonts/Bodoniitalic.ttf
+          weight: 300
+        - asset:  assets/fonts/BodoniRoman.ttf
+          weight: 100
+
