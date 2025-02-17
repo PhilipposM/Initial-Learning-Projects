@@ -40,35 +40,35 @@ public class Main {
         System.out.println("\nNext action: ");
 
       } else if (keybinding.equals("d")) {
-        howManyTasks--;
-        tasks.remove(taskIndex);
-        Task.printTasks();
-        keybinding = null;
-        System.out.println("\nNext action: ");
+          howManyTasks--;
+          tasks.remove(taskIndex);
+          Task.printTasks();
+          keybinding = null;
+          System.out.println("\nNext action: ");
 
-      } else if (keybinding.matches("^\\d+$"))
-        taskIndex = Integer.parseInt(keybinding);
-      System.out.println(taskIndex);
+      } else if (keybinding.matches("^\\d+$")){
+          taskIndex = Integer.parseInt(keybinding);
+          System.out.println(taskIndex);
 
-    }
+      } else if(keybinding.equals("e")) {
+          System.out.println("Task name: ");
+          tasks.get(taskIndex).setName(scanner.nextLine());
+
+          System.out.println("Date due: ");
+          tasks.get(taskIndex).setDate(scanner.nextLine());
+
+          System.out.println("Is it completed? (true/false)");
+          tasks.get(taskIndex).setCompleted(Boolean.parseBoolean(scanner.nextLine()));
+
+          Task.printTasks();
+          keybinding = null;
+          System.out.println("\nNext action: ");
+
+      } else if (keybinding.equals("x")) {
+          exit = true;
+      }
+    } 
     
-    else if(keybinding.equals("e")) {
-      System.out.println("Task name: ");
-      tasks.get(taskIndex).setName(scanner.nextLine());
-
-      System.out.println("Date due: ");
-      tasks.get(taskIndex).setDate(scanner.nextLine());
-
-      System.out.println("Is it completed? (true/false)");
-      tasks.get(taskIndex).setCompleted(Boolean.parseBoolean(scanner.nextLine()));
-
-      Task.printTasks();
-      keybinding = null;
-      System.out.println("\nNext action: ");
-
-    } else if (keybinding.equals("x")) {
-      exit = true;
-    }
     scanner.close();
   }
 }

@@ -16,6 +16,9 @@ public class Task {
      this.name = name;
    }
 
+  public String getName() {
+    return name;
+  }
 
    public void setCompleted(boolean completed) {
      this.completed = completed;
